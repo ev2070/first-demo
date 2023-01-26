@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>First Demo</title> <!-- Here I _titled_ my HTML file -->
+</head>
+
+<!-- I was inspired by Apple's aesthetic, so I applied a font from the following link https://stackoverflow.com/questions/32660748/how-to-use-apples-new-san-francisco-font-on-a-webpage -->
+<body style="font-family: -apple-system, BlinkMacSystemFont, sans-serif; background-color: #F7F8FA;">
+
+	<!-- A bar/box containing "Hello World!" -->
+	<nav style="background-color: #E6E2DF; padding-top: 3px; padding-bottom: 3px; padding-left: 25px;">
+		<h1 style="color: #6E6E73;">Hello World!</h1>
+	</nav>
+
+	<!-- Container holding a letter of admission to NYU
+	     I mimicked the format from the real letter -->
+	<div style="background-color: #F7F8FA; color: #6E6E73; padding-left: 25px; padding-right: 25px; font-family: monospace; padding-top:25px; padding-bottom:25px">
+
+		<p>To Whom It May Concern,</p>
+
+		<!-- To censor my NYU N# I used bullet points: https://www.toptal.com/designers/htmlarrows/punctuation/bullet/ -->
+		<h3>ADMISSION VERIFICATION FOR Elizabeth Vazquez (NYU ID: N<span>&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;</span>)</h3>
+
+		<p>Please consider this document as verification of admission to New York University as a full time undergraduate student.</p>
+
+		<!-- More divs to separate personal information
+			 Margin spacing was manipulated to group lines of content
+			 and to have them appear as indented
+			 Bolding was used for categorization -->
+		<div style="margin-left: 50px; margin-top: 25px;">
+			<p style="margin-bottom: 0;"><b>Full Name (as states on application):</b> Vazquez, Elizabeth</p>
+			<p style="margin-top: 3px; margin-bottom: 0;"><b>Date of Birth:</b> 31, April, 2002</p>
+			<p style="margin-top: 3px;"><b>Countries of Citizenship:</b> United States</p>
+		</div>
+
+		<div style="margin-left: 50px; margin-top: 25px;">
+			<p style="margin-bottom: 0;"><b>NYU School/College:</b> Tandon School of Engineering</p>
+			<p style="margin-top: 3px; margin-bottom: 0;"><b>Anticipated Degree:</b> Bachelor of Science</p>
+			<p style="margin-top: 3px;"><b>Anticipated Major:</b> Computer Science in Engineering</p>
+		</div>
+
+		<div style="margin-left: 50px; margin-top: 25px; margin-bottom: 25px;">
+			<p style="margin-bottom: 0;"><b>Anticipated Start Date:</b> 02, September, 2020</p>
+			<p style="margin-top: 3px;"><b>Anticipated Graduation Date:</b> 10, May, 2024</p>
+		</div>
+
+		<p>Please do not hesitate to contact us should you require additional information or clarification.</p>
+		<p style="margin-top: 25px; margin-bottom: 25px;">Sincerely,</p>
+
+		<!-- I used an NYU Tandon logo instead of Jonathan B. Williams's signature: https://engineering.nyu.edu/sites/default/files/2019-01/tandon_long_white.png
+
+		I used the following link to fit the image in a div container because the image is white with a transparent background: https://www.tutorialrepublic.com/faq/how-to-auto-resize-an-image-to-fit-into-a-div-container-using-css.php#:~:text=Answer%3A%20Use%20the%20CSS%20max,while%20maintaining%20its%20aspect%20ratio. -->
+		<div style="background-color:black; width: 300px; padding-right:10px">
+			<img src="tandon_long_white.png" style="max-width:100%" alt="Tandon Long White Logo">
+		</div>
+		
+		<p style="margin-bottom: 0;">Jonathan B. Williams</p>
+		<p style="margin-top: 0;">Assistant Vice President, Undergraduate Admissions</p>
+	</div>
+	
+	<!-- A footer naming the assignment and myself. -->
+	<footer style="text-align: center; background-color: #BAB9BB; padding-top: 25px; padding-bottom: 25px;">
+		<p style="color: #6E6E73"> First Demo by Elizabeth Vazquez </p>
+	</footer>
+
+</body>
+</html>
